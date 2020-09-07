@@ -3,7 +3,7 @@
 O autômato celular Jogo da Vida de John Conway consiste na interação entre cada célula do sistema e as 8 células ao redor.
 
 ## Funcionamento 
-Cada célula pode estar em um de 2 estados: viva ou morta(aqui representados respectivamente por "X" e por "-").
+Cada célula pode estar em um de 2 estados: viva ou morta (aqui representados respectivamente por "X" e por "-").
 
 Cada célula tem 8 vizinhos imediatamente ao seu redor (em cima, embaixo, à direita, à esquerda e todas as 4 diagonais) e consegue "enxergar" o estado desses vizinhos. 
 
