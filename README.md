@@ -10,7 +10,7 @@ Cada célula tem 8 vizinhos imediatamente ao seu redor (em cima, embaixo, à dir
 Assim, após a configuração inicial, cada célula respeita as seguintes regras para cada iteração do jogo:
 
 1. Se a célula estiver **morta** e precisamente com **três** vizinhos vivos, ela se torna **viva**, por expansão;
-2. Se a célula estiver **viva** e com **menos de dois** vizinhos vivos, ela se torna morta por solidão;
+2. Se a célula estiver **viva** e com **menos de dois** vizinhos vivos, ela se torna **morta** por solidão;
 3. Se a célula estiver **viva**  e com **mais de três** vizinhos vivos, ela se torna **morta** por excesso de população;
 4. Se a célula estiver **viva** com **dois ou três** vizinhos vivos, ela se mantem **viva**.
  
